@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding-left: 2px;
+    margin: 5px;
+    padding: 5px;
 
 }
 
@@ -21,7 +21,7 @@ h1{
 
 .half-width img{
     width: 100%;
-    height: 500px;
+   
 }
 .top-banner{
     background-image: url("/top-banner.png");
@@ -43,11 +43,34 @@ section{
 
 .dream{
     height: 500px;
+    background-image: url(/image/dream-bg.png);
+    background-repeat: no-repeat;
+   background-position: right;
    
 }
 .experience-area{
-  
-    display: flex;
-    width: 100%;
+    float: left;
+    background-image: url(/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 48%;
+}
 
+#specialone{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, LightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#specialtwo{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    clear: both;
+    text-align: center;
 }
