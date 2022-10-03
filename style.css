@@ -1,6 +1,6 @@
 body{
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -24,7 +24,11 @@ h1{
    
 }
 .top-banner{
+<<<<<<< HEAD:css/style.css
     background-image: url("../top-banner.png");
+=======
+    background-image: url("../image/top-banner.png");
+>>>>>>> 39159d4e58d657c1662cf1804f4780f040d92619:style.css
     background-repeat: no-repeat;
 }
 
