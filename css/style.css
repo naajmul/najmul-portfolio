@@ -24,17 +24,13 @@ h1{
    
 }
 .top-banner{
-<<<<<<< HEAD:css/style.css
-    background-image: url("../top-banner.png");
-=======
-    background-image: url("../image/top-banner.png");
->>>>>>> 39159d4e58d657c1662cf1804f4780f040d92619:style.css
+    background-image: url(../image/top-banner.png);
     background-repeat: no-repeat;
+    height: 500px;
+
 }
 
-section{
-    height: 500px;
-}
+
 
 .link-button{
     text-decoration: none;
@@ -57,6 +53,8 @@ section{
     background-image: url(../image/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    height: 500px ;
+}
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
@@ -64,15 +62,20 @@ section{
 }
 
 #specialone{
+    box-shadow: 10px 10px 40px gray;
     border-left: 7px solid ;
     border-image: linear-gradient(180deg, LightSalmon, tomato);
     border-image-slice: 1;
+    height: 250px;
+   
 }
 
 #specialtwo{
+    box-shadow: 10px 10px 40px gray;
     border-left: 7px solid ;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    height: 250px;
 }
 .footer{
     clear: both;
